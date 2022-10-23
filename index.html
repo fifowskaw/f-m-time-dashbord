@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link
+            rel="icon"
+            type="image/png"
+            sizes="32x32"
+            href="./images/favicon-32x32.png"
+        />
+        <title>Frontend Mentor | Time tracking dashboard</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <main>
+            <section class="left">
+                <div class="left-top">
+                    <div class="left-top-img">
+                        <img
+                            src="/images/image-jeremy.png"
+                            alt="Photo of Jeremy Robson"
+                        />
+                    </div>
+                    <p>Report for</p>
+                    <h1>Jeremy Robson</h1>
+                </div>
+                <div class="left-bottom">
+                    <button class="change-to-daily active">Daily</button
+                    ><button class="change-to-weekly">Weekly</button
+                    ><button class="change-to-monthly">Monthly</button>
+                </div>
+            </section>
+            <section class="reports">
+                <div class="tile work">
+                    <div class="tile-inside">
+                        <button class="dots">
+                            <svg
+                                width="21"
+                                height="5"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                                    fill="#BBC0FF"
+                                    fill-rule="evenodd"
+                                />
+                            </svg>
+                        </button>
+                        <h2>Work</h2>
+                        <span class="hours">10hrs</span>
+                        <span class="last-period">Last Week - 20hrs</span>
+                    </div>
+                </div>
+                <div class="tile play">
+                    <div class="tile-inside">
+                        <button class="dots">
+                            <svg
+                                width="21"
+                                height="5"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                                    fill="#BBC0FF"
+                                    fill-rule="evenodd"
+                                />
+                            </svg>
+                        </button>
+                        <h2>Play</h2>
+                        <span class="hours">10hrs</span>
+                        <span class="last-period">Last Week - 20hrs</span>
+                    </div>
+                </div>
+                <div class="tile study">
+                    <div class="tile-inside">
+                        <button class="dots">
+                            <svg
+                                width="21"
+                                height="5"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                                    fill="#BBC0FF"
+                                    fill-rule="evenodd"
+                                />
+                            </svg>
+                        </button>
+                        <h2>Study</h2>
+                        <span class="hours">10hrs</span>
+                        <span class="last-period">Last Week - 20hrs</span>
+                    </div>
+                </div>
+                <div class="tile exercise">
+                    <div class="tile-inside">
+                        <button class="dots">
+                            <svg
+                                width="21"
+                                height="5"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                                    fill="#BBC0FF"
+                                    fill-rule="evenodd"
+                                />
+                            </svg>
+                        </button>
+                        <h2>Exercise</h2>
+                        <span class="hours">10hrs</span>
+                        <span class="last-period">Last Week - 20hrs</span>
+                    </div>
+                </div>
+                <div class="tile social">
+                    <div class="tile-inside">
+                        <button class="dots">
+                            <svg
+                                width="21"
+                                height="5"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                                    fill="#BBC0FF"
+                                    fill-rule="evenodd"
+                                />
+                            </svg>
+                        </button>
+                        <h2>Social</h2>
+                        <span class="hours">10hrs</span>
+                        <span class="last-period">Last Week - 20hrs</span>
+                    </div>
+                </div>
+                <div class="tile self-care">
+                    <div class="tile-inside">
+                        <button class="dots">
+                            <svg
+                                width="21"
+                                height="5"
+                                xmlns="http://www.w3.org/2000/svg"
+                            >
+                                <path
+                                    d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                                    fill="#BBC0FF"
+                                    fill-rule="evenodd"
+                                />
+                            </svg>
+                        </button>
+                        <h2>Self Care</h2>
+                        <span class="hours">10hrs</span>
+                        <span class="last-period">Last Week - 20hrs</span>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            Challenge by
+            <a
+                href="https://www.frontendmentor.io/challenges/time-tracking-dashboard-UIQ7167Jw"
+                target="_blank"
+                >Frontend Mentor</a
+            >. Coded by <a href="#">Your Name Here</a>.
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>
