@@ -348,4 +348,7 @@ main {
         top: 25px;
         right: 25px;
     }
+    footer {
+        display: none;
+    }
 }
